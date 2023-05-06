@@ -1,0 +1,31 @@
+* {
+  font-size: medium;
+  box-sizing: border-box;
+}
+
+#map {
+  /* position: initial !important; */
+  height: 500px;
+  width: 500px;
+}
+#landlordInfo {
+  display: flex;
+  flex-flow: column;
+}
+.type-ahead {
+  position: absolute;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  background: rgb(69, 67, 67);
+  border-radius: 5px;
+}
+
+.type-ahead-item {
+  font-size: small;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
